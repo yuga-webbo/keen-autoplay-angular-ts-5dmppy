@@ -1,0 +1,46 @@
+
+.slider-wrapper {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.keen-slider {
+  width: calc(100vw - 30px);
+  height: 70vw;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;    
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+
+
+@media (min-width: 576px) {
+  .keen-slider {
+    width: 450px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 576px) {
+  .keen-slider {
+    width: 600px;
+    height: 294px;
+  }
+}
+
+  @media (min-width: 990px) {
+      .keen-slider {
+        width: 900px;
+        height: 440px;
+      }
+  }
